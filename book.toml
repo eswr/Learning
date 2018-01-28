@@ -1,0 +1,9 @@
+[book]
+title = "Learning X, for the nth time!"
+author = "Koka Easwarendra"
+description = "A list of tasks that i intend to do in order to become a better software developer"
+multilingual = false
+src = "src"
+
+[output.html.playpen]
+editable = true
