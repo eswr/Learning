@@ -30,4 +30,4 @@ Thank you for reading this article. ♥
 
 I highly appreciate pull requests, comments, suggestions... anything really . Thank you!
 
-**contributors** can edit [this page](todo/rough_work.md) or leave a [open issue](todo/rough_work.md)
+**contributors** can edit [this page](src/todo/rough_work.md) or leave a [open issue](https://github.com/eswr/Learning/issues)

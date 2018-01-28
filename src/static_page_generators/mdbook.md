@@ -39,3 +39,6 @@ fn main() {
 }
 ```
 - can use runnable rust file via playpen
+
+## Additional links
+https://michael-f-bryan.github.io/cheat-sheets/

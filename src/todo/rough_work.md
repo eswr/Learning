@@ -1,6 +1,5 @@
 rough work!
 
-## Static Page Generators
+I need help with GitHub's CI/CD tools:
 
-options considered: mdBook, cobalt, hugo, nuxt
-
+expected output: README.md should have badges like build:passing, coverge:100% etc.

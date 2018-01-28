@@ -9,4 +9,4 @@ Made using [mdbook](https://github.com/rust-lang-nursery/mdBook).
 
 I highly appreciate pull requests, comments, suggestions... anything really . Thank you!
 
-**contributors** can edit [this page](todo/rough_work.md) or leave a [open issue](todo/rough_work.md)
+**contributors** can edit [this page](src/todo/rough_work.md) or leave a [open issue](/../../issues)
