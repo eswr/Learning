@@ -12,11 +12,15 @@ mdbook serve path/to/book -p 8000 -i 127.0.0.1 -a 192.168.1.100 -w 3000
 
 **-w** : 192.168.1.100:<WS_PORT> will be proxied for live reload
 
-#### Handy commands
+#### deploy on github
 
+remove `book/` from .gitignore and commit. On every change to src, run these commands:
 ```bash
 mdbook test
 mdbook serve
+git add .
+git commit -m 'change desc'
+git subtree push --prefix book origin gh-pages
 ```
 
 ## Features

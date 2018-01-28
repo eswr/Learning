@@ -127,9 +127,13 @@
 </code></pre>
 <p><strong>-o --open</strong> : mdbook will open the book in your your default web browser after starting the server</p>
 <p><strong>-w</strong> : 192.168.1.100:&lt;WS_PORT&gt; will be proxied for live reload</p>
-<a class="header" href="static_page_generators/mdbook.html#handy-commands" id="handy-commands"><h4>Handy commands</h4></a>
+<a class="header" href="static_page_generators/mdbook.html#deploy-on-github" id="deploy-on-github"><h4>deploy on github</h4></a>
+<p>remove <code>book/</code> from .gitignore and commit. On every change to src, run these commands:</p>
 <pre><code class="language-bash">mdbook test
 mdbook serve
+git add .
+git commit -m 'change desc'
+git subtree push --prefix book origin gh-pages
 </code></pre>
 <a class="header" href="static_page_generators/mdbook.html#features" id="features"><h2>Features</h2></a>
 <ul>
