@@ -1,5 +1,7 @@
 # Learning X, for the nth time!
 
+https://eswr.github.io/Learning/
+
 Made using [mdbook](https://github.com/rust-lang-nursery/mdBook).
 
 # Task List
